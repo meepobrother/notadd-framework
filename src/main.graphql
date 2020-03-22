@@ -1,0 +1,34 @@
+scalar Upload
+
+scalar Any
+
+scalar BigInt
+
+scalar Date
+
+scalar Email
+
+scalar Ipv4
+
+scalar Ipv6
+
+scalar Mobile
+
+scalar Object
+
+scalar URL
+
+scalar ObjectLiteral
+
+scalar Empty
+
+scalar Float
+
+scalar Undefined
+
+scalar Void
+
+type Query {
+  version: String!
+  error(message: String!): Any!
+}
